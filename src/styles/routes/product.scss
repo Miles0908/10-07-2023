@@ -1,0 +1,17 @@
+.Products {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Products__btn {
+  border-radius: 12px;
+  cursor: pointer;
+}
+.Products img {
+  border-radius: 12px;
+}
