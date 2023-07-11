@@ -2,15 +2,16 @@ import { useNavigate } from "react-router-dom";
 import "../../styles/routes/locations.scss"
 import {roomList} from "../../mocks/reservation"
 
+
 export default function Locations() {
 
   const navigate = useNavigate();
 
   const onHandleCLick = () => {
-    navigate("/welcome");
+    navigate("/");
   };
 
-  const onNavigateLocation= (id)=> navigate(`/Locations/${id}`)
+  const onNavigateLocation= (id)=> navigate(`/locations/${id}`)
 
   const onLocaRender = () => {
     return roomList?.map(({ name, imageLocation, id , location, price , rating, roomsAvailable }) => (

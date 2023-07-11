@@ -1,13 +1,8 @@
 
 .App{
     background: linear-gradient(to right ,rgb(203, 126, 203),rgb(171, 96, 96));
+    border-radius: 12px;
+    margin-top: 50px;
 }
-.App__Navbar{
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
-/*   overflow-y: scroll; */
-  
-}
+
+
